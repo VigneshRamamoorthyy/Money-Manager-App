@@ -1,0 +1,27 @@
+.table-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top: #cbd5e1 2px solid;
+}
+
+.table-cell {
+  color: #1e293b;
+  font-family: Roboto;
+  font-size: 14px;
+
+  width: 30%;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-img {
+  width: 20px;
+}

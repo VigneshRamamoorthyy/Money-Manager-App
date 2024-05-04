@@ -1,0 +1,93 @@
+.money-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 786px) {
+  .money-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.balance-container {
+  background-color: #ecfccb;
+  border: #84cc16 2px solid;
+  height: 130px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+@media screen and (min-width: 786px) {
+  .balance-container {
+    width: 30%;
+  }
+}
+
+.income-container {
+  background-color: #cffafe;
+  border: #06b6d4 2px solid;
+  height: 130px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+@media screen and (min-width: 786px) {
+  .income-container {
+    width: 30%;
+  }
+}
+
+.expenses-container {
+  background-color: #ede9fe;
+  border: #7c3aed 2px solid;
+  height: 130px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+@media screen and (min-width: 786px) {
+  .expenses-container {
+    width: 30%;
+  }
+}
+
+.money-details-img {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+}
+
+.money-container {
+  margin-left: 20px;
+}
+
+.money-details-heading {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 12px;
+}
+
+.money {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
